@@ -1,0 +1,3 @@
+[submodule "src/pincher_arm"]
+	path = src/pincher_arm
+	url = https://github.com/fictionlab/pincher_arm.git
