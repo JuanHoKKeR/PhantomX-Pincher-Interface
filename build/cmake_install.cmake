@@ -131,6 +131,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/juancruz2/PincherArm_catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/juancruz2/PincherArm_catkin_ws/build/pincher_arm/pincher_arm/cmake_install.cmake")
+  include("/home/juancruz2/PincherArm_catkin_ws/build/pincher_arm/pincher_arm_bringup/cmake_install.cmake")
+  include("/home/juancruz2/PincherArm_catkin_ws/build/pincher_arm/pincher_arm_description/cmake_install.cmake")
+  include("/home/juancruz2/PincherArm_catkin_ws/build/pincher_arm/pincher_arm_moveit_config/cmake_install.cmake")
+  include("/home/juancruz2/PincherArm_catkin_ws/build/test_movements/cmake_install.cmake")
+  include("/home/juancruz2/PincherArm_catkin_ws/build/pincher_arm/pincher_arm_ikfast_plugin/cmake_install.cmake")
+  include("/home/juancruz2/PincherArm_catkin_ws/build/pincher_arm/pincher_arm_moveit_demos/cmake_install.cmake")
 
 endif()
 

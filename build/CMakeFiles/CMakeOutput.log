@@ -489,3 +489,35 @@ make[1]: Leaving directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFile
 
 
 
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4252b/fast && make[1]: Entering directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4252b.dir/build.make CMakeFiles/cmTC_4252b.dir/build
+make[2]: Entering directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4252b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_4252b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4252b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4252b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    -rdynamic CMakeFiles/cmTC_4252b.dir/CheckFunctionExists.c.o  -o cmTC_4252b  /usr/lib/x86_64-linux-gnu/libblas.so 
+make[2]: Leaving directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58498/fast && make[1]: Entering directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_58498.dir/build.make CMakeFiles/cmTC_58498.dir/build
+make[2]: Entering directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58498.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_58498.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_58498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58498.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    -rdynamic CMakeFiles/cmTC_58498.dir/CheckFunctionExists.c.o  -o cmTC_58498  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so 
+make[2]: Leaving directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/juancruz2/PincherArm_catkin_ws/build/CMakeFiles/CMakeTmp'
+
+
+

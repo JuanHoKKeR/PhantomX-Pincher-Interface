@@ -1,3 +1,15 @@
 [submodule "src/pincher_arm"]
 	path = src/pincher_arm
 	url = https://github.com/fictionlab/pincher_arm.git
+[submodule "src/test_movements/scripts/robotics-toolbox-python"]
+	path = src/test_movements/scripts/robotics-toolbox-python
+	url = https://github.com/petercorke/robotics-toolbox-python.git
+[submodule "src/test_movements/scripts/swift"]
+	path = src/test_movements/scripts/swift
+	url = https://github.com/jhavl/swift
+[submodule "src/test_movements/scripts/spatialgeometry"]
+	path = src/test_movements/scripts/spatialgeometry
+	url = https://github.com/jhavl/spatialgeometry
+[submodule "src/test_movements/scripts/spatialmath-python"]
+	path = src/test_movements/scripts/spatialmath-python
+	url = https://github.com/petercorke/spatialmath-python.git
